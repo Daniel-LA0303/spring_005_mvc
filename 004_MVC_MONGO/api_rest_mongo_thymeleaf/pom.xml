@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bolsadeideas.springboot.api_rest_mongo.app</groupId>
-	<artifactId>api_rest_mongo</artifactId>
+	<artifactId>api_rest_mongo_thymeleaf</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api_rest_mongo_thymeleaf</name>
 	<description>Demo project for Spring Boot</description>
@@ -45,6 +45,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>io.github.cdimascio</groupId>
+		    <artifactId>dotenv-java</artifactId>
+		    <version>3.0.0</version>
 		</dependency>
 	</dependencies>
 
